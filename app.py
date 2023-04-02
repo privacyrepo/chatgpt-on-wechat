@@ -25,7 +25,7 @@ def run():
         # startup channel
         channel.startup()
     except Exception as e:
-        logger.error("App startup failed!")
+        logger.error("App launch failed!")
         logger.exception(e)
 
 if __name__ == '__main__':
